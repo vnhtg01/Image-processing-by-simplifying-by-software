@@ -25,8 +25,8 @@
 
 
 - Fichiers resultat examples :
- + Asterix3.contours.eps 	|(grâce à tache5)		
- + Asterix3.segment(d =1).eps	|(grâce à bézier 1)
- + Asterix3.bezier2(d =1).eps	|(grâce à bézier 2)
- + Asterix3.bezier3(d =1).eps	|(grâce à bézier 3)
+ + (grâce à tache5) : Asterix3.contours.eps 			
+ + (grâce à bézier 1): Asterix3.segment(d =1).eps	
+ + (grâce à bézier 2): Asterix3.bezier2(d =1).eps	
+ + (grâce à bézier 3): Asterix3.bezier3(d =1).eps	
 
