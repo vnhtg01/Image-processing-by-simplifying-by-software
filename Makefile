@@ -5,7 +5,7 @@
 # utilisation des variables internes $@ $< $^ $*
 # $@ : correspond au nom de la cible
 # $< : correspond au nom de la premiere dependance
-# $^ : correspond � toutes les d�pendances
+# $^ : correspond au toutes les dépendances
 # $* : correspond au nom du fichier sans extension 
 #       (dans les regles generiques uniquement)
 #############################################################################
@@ -27,7 +27,7 @@ INCDIR = .
 # chemin d'acces aux librairies (binaires)
 LIBDIR = .
 
-# options pour l'�dition des liens
+# options pour l'addition des liens
 LDOPTS = -L$(LIBDIR) -lm
 
 # options pour la recherche des fichiers .o et .h
@@ -45,7 +45,7 @@ EXECUTABLES =  tache5  tache6 bezier_2 bezier_3 teste_geom2d
 #############################################################################
 
 ########################################################
-# la r�gle par d�faut
+# la règle par défaut
 all : $(EXECUTABLES)
 
 ########################################################
@@ -106,7 +106,7 @@ bezier_2 : bezier_2.o image.o contour_avancee.o geom2d.o robot.o contour_image.o
 	$(CC) -g $^ $(LDOPTS) -o $@
 bezier_3 : bezier_3.o image.o contour_avancee.o geom2d.o robot.o contour_image.o simplification.o
 	$(CC) -g $^ $(LDOPTS) -o $@
-# regle pour "nettoyer" le r�pertoire
+# regle pour "nettoyer" le répertoire
 clean:
 	rm -fR $(EXECUTABLES) *.o *.contours *.eps
 clean_image:
