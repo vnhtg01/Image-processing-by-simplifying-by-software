@@ -1,7 +1,7 @@
 # TRAITEMENT D'IMAGE EN SIMPLIFIANT LOGICIELS
 #	Commandes de tester
 
-- Pour tous compiler les programme : make
+- Pour tous compiler le programme : make
 
 - Pour retourner au programme avant de compiler : make clean
 
