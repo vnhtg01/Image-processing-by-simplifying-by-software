@@ -1,4 +1,28 @@
 # TRAITEMENT D'IMAGE EN SIMPLIFIANT LOGICIELS
+#       Generalement
+Dans ce projet, j'ai écrit un programme qui utilise le langage de programmation C pour effectuer un traitement d'image simple sur un ensemble d'images d'entrée. 
+Mon programme comprend les fonctions principales suivantes :
+
+- Charger l'image : charge l'image d'entrée à partir d'un fichier spécifié.
+
+- Conversion en niveaux de gris : convertissez une image couleur en image en niveaux de gris.
+
+- Inverser les couleurs : Inverse les couleurs de l'image.
+
+- Redimensionner : modifier la taille de l'image.
+
+- Rotation : Faites pivoter l'image selon un certain angle.
+
+- Flou : flouter une image en utilisant un certain nombre de méthodes différentes.
+
+- Seuil : Seuil l'image pour générer une image binaire.
+
+En outre,
+- J'ai utilisé des bibliothèques de programmation prenant en charge le traitement d'images pour exécuter ces fonctions. 
+- J'ai également fourni des exemples de fichiers image et de la documentation pour aider les utilisateurs à utiliser mon programme. 
+
+En un mot, mon projet fournit une approche simple du traitement d'image dans le langage de programmation C.
+
 #	Commandes de tester
 
 - Pour tous compiler le programme : make
