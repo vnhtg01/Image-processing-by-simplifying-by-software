@@ -1,4 +1,4 @@
-# TRAITEMENT D'IMAGE EN SIMPLIFIANT LOGICIELS
+# Traitement-d-image-en-simplifiant-par-logiciel
 #       Generalement
 Dans ce projet, j'ai écrit un programme qui utilise le langage de programmation C pour effectuer un traitement d'image simple sur un ensemble d'images d'entrée. 
 Mon programme comprend les fonctions principales suivantes :
